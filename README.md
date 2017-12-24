@@ -2,6 +2,8 @@
 
 ## Lab 1
 
+### Task 1
+```
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -67,7 +69,9 @@ namespace ConsoleApp1 {
         }
     }
 }
-
+```
+### Task 2
+```
 // class Letter {
 //   letter = '';
 //   persent= 0;
@@ -196,15 +200,18 @@ for (var i = 0; i < 255; i++) {
     //  console.log(text, '\n');
   }
 }
-
+```
 
 
 ## Lab 2
+
+### Task 1, 2
  https://drive.google.com/open?id=1qpnVYECVndw7HPJQ-kVFUXEI93O-uj9Jp-xEBTbegto 
 ## Lab 3
-
+###Task 1
 Работает, только нужно использовать 'чистый' sha1 я взял отсюда https://codereview.stackexchange.com/questions/37648/python-implementation-of-sha1
 
+```
 import hlextend
 import requests
 import hashlib
@@ -246,5 +253,5 @@ for x in range(20, 31):
    r = requests.post(macAuth, data = user)   
    print(x)
    print(r.text)
-   
+  ```
  также собственная реализация (но key нужно менять руками) https://drive.google.com/open?id=1T4TxRVsCZVENVQE9cePEK40lR2fIRRyXbUaBtCeu5Yc
