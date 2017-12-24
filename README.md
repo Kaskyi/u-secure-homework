@@ -71,6 +71,8 @@ namespace ConsoleApp1 {
 }
 ```
 ### Task 2
+
+ not work
 ```
 // class Letter {
 //   letter = '';
